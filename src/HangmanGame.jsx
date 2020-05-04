@@ -15,7 +15,6 @@ export default function HangmanGame({ wordList, defaultLife }) {
   const [curChar, setCurChar] = useState(range('A'.charCodeAt(0), 'Z'.charCodeAt(0), 1).map((x) => String.fromCharCode(x)));
   const [time, setTime] = useState(0);
   const [isOn, setIsOn] = useState(true);
-
   function newGame() {
     setLife(defaultLife);
     setWord(wordList[Math.floor(Math.random() * wordList.length)]);
@@ -33,7 +32,6 @@ export default function HangmanGame({ wordList, defaultLife }) {
   function guess(char) {
     setUsedChar([...usedChar, char]);
     setCurChar(curChar.filter((x) => x !== char));
-
     if (!word.includes(char)) setLife(life - 1);
   }
   useEffect(() => {
@@ -53,7 +51,6 @@ export default function HangmanGame({ wordList, defaultLife }) {
         ? <ButtonInput curChar={curChar} onClick={guess} />
         : <Result life={life} showWord={createShowedWord(word, usedChar)} onReset={newGame} />}
     </div>
-
   );
 }
 HangmanGame.propTypes = {
