@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/hangman-game/static/css/main.7b5e2b9c.chunk.css",
-    "main.js": "/hangman-game/static/js/main.a661aa84.chunk.js",
-    "main.js.map": "/hangman-game/static/js/main.a661aa84.chunk.js.map",
+    "main.css": "/hangman-game/static/css/main.a139b2b2.chunk.css",
+    "main.js": "/hangman-game/static/js/main.468264aa.chunk.js",
+    "main.js.map": "/hangman-game/static/js/main.468264aa.chunk.js.map",
     "runtime-main.js": "/hangman-game/static/js/runtime-main.b9e02cbf.js",
     "runtime-main.js.map": "/hangman-game/static/js/runtime-main.b9e02cbf.js.map",
-    "static/js/2.cf4a957e.chunk.js": "/hangman-game/static/js/2.cf4a957e.chunk.js",
-    "static/js/2.cf4a957e.chunk.js.map": "/hangman-game/static/js/2.cf4a957e.chunk.js.map",
+    "static/js/2.aab6ce1b.chunk.js": "/hangman-game/static/js/2.aab6ce1b.chunk.js",
+    "static/js/2.aab6ce1b.chunk.js.map": "/hangman-game/static/js/2.aab6ce1b.chunk.js.map",
     "index.html": "/hangman-game/index.html",
-    "precache-manifest.2b51cb84ac84b8226c22ec18a8f4a275.js": "/hangman-game/precache-manifest.2b51cb84ac84b8226c22ec18a8f4a275.js",
+    "precache-manifest.e8c8622ca78bccd251d4ecfa9b5cd5e3.js": "/hangman-game/precache-manifest.e8c8622ca78bccd251d4ecfa9b5cd5e3.js",
     "service-worker.js": "/hangman-game/service-worker.js",
-    "static/css/main.7b5e2b9c.chunk.css.map": "/hangman-game/static/css/main.7b5e2b9c.chunk.css.map",
-    "static/js/2.cf4a957e.chunk.js.LICENSE.txt": "/hangman-game/static/js/2.cf4a957e.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/hangman-game/static/media/logo.5d5d9eef.svg"
+    "static/css/main.a139b2b2.chunk.css.map": "/hangman-game/static/css/main.a139b2b2.chunk.css.map",
+    "static/js/2.aab6ce1b.chunk.js.LICENSE.txt": "/hangman-game/static/js/2.aab6ce1b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b9e02cbf.js",
-    "static/js/2.cf4a957e.chunk.js",
-    "static/css/main.7b5e2b9c.chunk.css",
-    "static/js/main.a661aa84.chunk.js"
+    "static/js/2.aab6ce1b.chunk.js",
+    "static/css/main.a139b2b2.chunk.css",
+    "static/js/main.468264aa.chunk.js"
   ]
 }
